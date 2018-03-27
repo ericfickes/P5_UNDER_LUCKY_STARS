@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27936079-2c8f-486a-a7e7-01c94b798d61" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/FIXLIB.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/itext.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pde.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/pdf.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/P5_UNDER_LUCKY_STARS.iml" afterPath="$PROJECT_DIR$/P5_UNDER_LUCKY_STARS.iml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/Main.java" afterPath="$PROJECT_DIR$/src/FIRST/Main.java" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/FIRST.Main03272018133501.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/FIRST.Main03272018133512.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/FIRST.Main03272018135021.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/HMetalBeta1.Main03272018132000.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/HMetalBeta1.Main03272018132012.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/HMetalBeta1.Main03272018132021.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/FIRST/frames/HMetalBeta1.Main03272018132031.gif" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,15 +31,12 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/FIRST/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+            <state relative-caret-position="626">
+              <caret line="109" column="22" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
               <folding>
-                <element signature="e#9943#9944#0" expanded="true" />
-                <element signature="e#10042#10043#0" expanded="true" />
-                <element signature="e#10149#10150#0" expanded="true" />
-                <element signature="e#10203#10204#0" expanded="true" />
-                <element signature="e#10445#10446#0" expanded="true" />
-                <element signature="e#10489#10490#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1472#1473#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,9 +47,26 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>METAL</find>
+      <find>ct</find>
+      <find>PDF</find>
+      <find>FAseedOR</find>
+      <find>begin</find>
+      <find>frames</find>
+      <find>save(</find>
+      <find>save</find>
+      <find>Saving high-resolution image</find>
+      <find>size</find>
+      <find>scale</find>
+      <find>CONFIG_SCALE_FACTOR</find>
+      <find>randomSeed</find>
+      <find>smooth</find>
+      <find>background(</find>
+      <find>vertex</find>
     </findStrings>
     <replaceStrings>
       <replace />
+      <replace>seed</replace>
+      <replace>FACTOR</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -58,7 +85,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="720" />
     <option name="height" value="878" />
@@ -101,6 +128,55 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="FIRST" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="core" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="core" type="70bed36:NamedLibraryElementNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="core" type="70bed36:NamedLibraryElementNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="core" type="70bed36:NamedLibraryElementNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="core.jar" type="ab9368bb:PsiFileNode" />
+            </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="core" type="70bed36:NamedLibraryElementNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="core.jar" type="ab9368bb:PsiFileNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P5_UNDER_LUCKY_STARS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="core" type="70bed36:NamedLibraryElementNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+              <item name="core.jar" type="ab9368bb:PsiFileNode" />
+              <item name="processing" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -110,8 +186,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -245,12 +321,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="878" extended-state="6" />
+    <frame x="0" y="22" width="720" height="878" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -261,13 +337,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12446352" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29041487" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39974457" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -281,7 +357,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="7" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -291,27 +367,21 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#9943#9944#0" expanded="true" />
-            <element signature="e#10042#10043#0" expanded="true" />
-            <element signature="e#10149#10150#0" expanded="true" />
-            <element signature="e#10203#10204#0" expanded="true" />
-            <element signature="e#10445#10446#0" expanded="true" />
-            <element signature="e#10489#10490#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FIRST/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="28" column="40" lean-forward="false" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+        <state relative-caret-position="626">
+          <caret line="109" column="22" lean-forward="false" selection-start-line="109" selection-start-column="22" selection-end-line="109" selection-end-column="22" />
           <folding>
-            <element signature="e#9943#9944#0" expanded="true" />
-            <element signature="e#10042#10043#0" expanded="true" />
-            <element signature="e#10149#10150#0" expanded="true" />
-            <element signature="e#10203#10204#0" expanded="true" />
-            <element signature="e#10445#10446#0" expanded="true" />
-            <element signature="e#10489#10490#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1472#1473#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -393,7 +463,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gstreamer-java</last-edited>
+          <last-edited>pdf</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -10,5 +10,8 @@
     <orderEntry type="library" name="core" level="project" />
     <orderEntry type="library" name="library" level="project" />
     <orderEntry type="library" name="gstreamer-java" level="project" />
+    <orderEntry type="library" name="pde" level="project" />
+    <orderEntry type="library" name="FIXLIB" level="project" />
+    <orderEntry type="library" name="pdf" level="project" />
   </component>
 </module>
