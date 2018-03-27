@@ -63,7 +63,7 @@ public class Main extends PApplet {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public  void  settings ()  {
-        size(540, 720 , P3D);  //  + CONFIG_SCALE_FACTOR = 10 for rendering
+        size(540, 720 );  //  + CONFIG_SCALE_FACTOR = 10 for rendering
         smooth(8);  //  smooth() can only be used in settings();
         pixelDensity(displayDensity());
     }
@@ -81,7 +81,6 @@ public class Main extends PApplet {
         seed = millis();
         seededRender();
     }
-
 
 
     public  void  setupStage ()  {
@@ -123,7 +122,6 @@ public class Main extends PApplet {
         /* Write your drawing code here */
 
         noStroke();
-        colorMode(HSB, 360, 100, 100);
         background(-1);
         hue = random(360);
 
@@ -172,7 +170,7 @@ public class Main extends PApplet {
         } else if (key == ESC) {
             doExit();
         } else {
-                doExit();
+            doExit();
         }
     }
 
@@ -226,6 +224,10 @@ public class Main extends PApplet {
      */
     private void savePDF(int scaleFactor) {
         println("Saving PDF image...");
+
+
+setup();
+settings();
 
         beginRecord( PDF, SAVE_PATH + seed + ".pdf");
 
