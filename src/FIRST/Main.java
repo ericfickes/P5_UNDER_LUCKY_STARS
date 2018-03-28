@@ -165,8 +165,8 @@ public class Main extends PApplet {
 
         if (key == 'h') {
             saveHighRes(CONFIG_SCALE_FACTOR);
-        } else if (key == 'p') {
-            savePDF(CONFIG_SCALE_FACTOR);
+        } else if (key == 's') {
+            saveSVG(CONFIG_SCALE_FACTOR);
         } else if (key == ESC) {
             doExit();
         } else {
@@ -222,14 +222,22 @@ public class Main extends PApplet {
     /**
      * save PDF
      */
-    private void savePDF(int scaleFactor) {
-        println("Saving PDF image...");
+    private void saveSVG(int scaleFactor) {
+        println("Saving SVG image...");
 
 
 setup();
 settings();
 
-        beginRecord( PDF, SAVE_PATH + seed + ".pdf");
+
+        PGraphics hires = createGraphics(
+                width * scaleFactor,
+                height * scaleFactor,
+                SVG,
+                SAVE_PATH+seed+".SVG");
+
+
+        beginRecord( hires );
 
         seededRender();
 

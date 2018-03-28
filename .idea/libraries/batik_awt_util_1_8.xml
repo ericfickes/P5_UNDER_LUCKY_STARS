@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="batik-awt-util-1.8">
+    <CLASSES>
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/batik-awt-util-1.8.jar!/" />
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/batik-dom-1.8.jar!/" />
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/batik-ext-1.8.jar!/" />
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/batik-svggen-1.8.jar!/" />
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/batik-util-1.8.jar!/" />
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/batik-xml-1.8.jar!/" />
+      <root url="jar:///Applications/Processing.app/Contents/Java/modes/java/libraries/svg/library/svg.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
