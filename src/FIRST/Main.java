@@ -63,7 +63,17 @@ public class Main extends PApplet {
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     @Override
     public  void  settings ()  {
-        size(540, 720 );  //  + CONFIG_SCALE_FACTOR = 10 for rendering
+        //  SIZE1
+//        size(540, 720 );  //  + CONFIG_SCALE_FACTOR = 10 for rendering
+
+        //  SIZE2
+//        size(720, 1080 );  //  + CONFIG_SCALE_FACTOR = 10 for rendering
+
+        //  SIZE3
+        size(702, 993);  //  + CONFIG_SCALE_FACTOR = 10 for rendering
+
+
+
         smooth(8);  //  smooth() can only be used in settings();
         pixelDensity(displayDensity());
     }
@@ -83,12 +93,17 @@ public class Main extends PApplet {
     }
 
 
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    /**
+     * font and other re-visitable stage setup
+     */
     public  void  setupStage ()  {
 
-//        textMode(CENTER);
         textAlign(CENTER);
         textSize(42);
-        textFont(createFont("Bebas Neue Bold", 42));
+
+// TODO: install all over open fonts and update here
+        textFont(createFont("BebasNeueBold", 42));
 
         fill(0);
 
@@ -163,10 +178,12 @@ public class Main extends PApplet {
     @Override
     public void keyPressed(){
 
-        if (key == 'h') {
-            saveHighRes(CONFIG_SCALE_FACTOR);
-        } else if (key == 's') {
+        if (key == 's') {
+println("TODO: re-enable saveHighRes before submitting, currently only writing SVG");
+//            saveHighRes(CONFIG_SCALE_FACTOR);
             saveSVG(CONFIG_SCALE_FACTOR);
+            doExit();
+
         } else if (key == ESC) {
             doExit();
         } else {
